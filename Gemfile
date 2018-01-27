@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.6'
-gem 'sqlite3'
+gem 'pg', '~> 0.18.4'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -16,7 +16,6 @@ gem 'turbolinks', '~> 5'
 gem 'devise', '~> 4.2.1'
 gem 'haml', '~> 4.0.7'
 gem 'foundation-rails', '~> 5.4.5'
-
 
 group :development, :test do
   gem 'byebug', platform: :mri
