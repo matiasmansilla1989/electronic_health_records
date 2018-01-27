@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'devise', '~> 4.2.1'
+gem 'haml', '~> 4.0.7'
+gem 'foundation-rails', '~> 5.4.5'
 
 
 group :development, :test do
